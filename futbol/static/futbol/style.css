@@ -1,0 +1,105 @@
+ * {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+ }
+ body {
+ font-family: Arial, sans-serif;
+ background: #f5f5f5;
+ color: #333;
+ padding: 20px;
+ }
+ /* T tulo centrado */
+ .titulo-centro {
+ text-align: center;
+ color: #006400;
+ margin-bottom: 20px;
+ }
+/* Tabla de partidos */
+ table {
+ width: 100%;
+ border-collapse: collapse;
+ margin: 0 auto 20px;
+ }
+ th {
+ background: #00796b;
+ color: #fff;
+ }
+ th, td {
+ border: 1px solid #ccc;
+ padding: 8px;
+ text-align: center;
+ }
+ .mini-logo {
+ width: 30px;
+ height: 30px;
+ vertical-align: middle;
+ margin-right: 5px;
+ }
+ /* Botones debajo de la tabla */
+ .botones-abajo {
+ text-align: center;
+ margin-top: 10px;
+ }
+ .botones-abajo button {
+ margin: 0 10px;
+ padding: 10px 20px;
+ background: #007BFF;
+ color: white;
+ border: none;
+ border-radius: 4px;
+ cursor: pointer;
+ }
+ .botones-abajo button:hover {
+ background: #0056b3;
+ }
+ /* Contenedor de formularios centrado */
+ .form-container {
+ max-width: 400px;
+ margin: 0 auto;
+ background: #fff;
+ padding: 20px;
+ border-radius: 6px;
+ box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+ }
+ /* Estilos de formulario */
+form label {
+display: block;
+margin-top: 10px;
+font-weight: bold;
+ }
+ form input[type="text"],
+ form input[type="email"],
+ form input[type="file"],
+ form textarea {
+ width: 100%;
+ padding: 8px;
+ margin-top: 5px;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ }
+ form button {
+ margin-top: 15px;
+ width: 100%;
+ padding: 10px;
+ background: #28a745;
+ color: #fff;
+ border: none;
+ border-radius: 4px;
+ cursor: pointer;
+ }
+ form button:hover {
+ background: #218838;
+ }
+ .btn-eliminar {
+ margin-top: 5px;
+ padding: 5px 10px;
+ background: #dc3545;
+ color: white;
+ border: none;
+ border-radius: 4px;
+ cursor: pointer;
+ }
+ .btn-eliminar:hover {
+ background: #c82333;
+ }
