@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>MiPartido Ingresar Partido</title>
+    <link rel="stylesheet" href="{% static 'futbol/style.css' %}">
+    <script defer src="{% static 'futbol/script.js' %}"></script>
+</head>
+<body>
+    <h1 class="titulo-centro">Ingresar Nuevo Partido</h1>
+    <div class="form-container">
+        <form id="form-partido">
+            <label>Equipo A:</label>
+            <input type="text" id="equipoA" required>
+
+            <label>Logo Equipo A (PNG/JPG):</label>
+            <input type="file" id="logoA" accept="image/png, image/jpeg">
+
+            <label>Equipo B:</label>
+            <input type="text" id="equipoB" required>
+
+            <label>Logo Equipo B (PNG/JPG):</label>
+            <input type="file" id="logoB" accept="image/png, image/jpeg">
+
+            <label>Resultado (Ej. 2-1):</label>
+            <input type="text" id="resultado" required>
+
+            <button type="submit">Guardar Partido</button>
+        </form>
+    </div>
+</body>
+</html>

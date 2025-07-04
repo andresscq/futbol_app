@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>MiPartido Contacto</title>
+    <link rel="stylesheet" href="{% static 'futbol/style.css' %}">
+    <script defer src="{% static 'futbol/script.js' %}"></script>
+</head>
+<body>
+    <h1 class="titulo-centro">Contáctanos</h1>
+    <div class="form-container">
+        <form id="form-contacto">
+            <label>Nombre:</label>
+            <input type="text" required>
+
+            <label>Correo:</label>
+            <input type="email" required>
+
+            <label>Mensaje:</label>
+            <textarea required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
